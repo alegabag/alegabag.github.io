@@ -2,22 +2,24 @@
 <html>
     <head>
         <title>Mi portafolio personal</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <header>
+        <header>            
             <h1>Alejandro</h1>
             <h2>Web Developer</h2>
             <nav>
-                <a href="#acerca-de-mi">Acerca de mí</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#experiencia">Experiencia</a>
-                <a href="#proyectos">Proyectos</a>
-                <a href="#contacto">Contacto</a>
+                <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
+                <a class="menu-item" href="#habilidades">Habilidades</a>
+                <a class="menu-item" href="#experiencia">Experiencia</a>
+                <a class="menu-item" href="#proyectos">Proyectos</a>
+                <a class="menu-item" href="#contacto">Contacto</a>
             </nav>
         </header>
         <main>
             <section id="acerca-de-mi">
-                <h2>Acerca de mí</h2>
+                <h2 id="titulo-acerca-de-mi">Acerca de mí</h2>
                 <p>
                     Hola, mi nombre es Alejandro Gabaglio. Bienvenido a mi portafolio personal. Soy desarrollador web y amante del
                     mundo de la tecnología. Me esfuerzo en cada línea de código para asegurarme
@@ -27,7 +29,7 @@
                 </p>
             </section>
             <section id="habilidades">
-                <h2>Habilidades</h2>
+                <h2 id="titulo-habilidades">Habilidades</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -37,7 +39,7 @@
                 </ul>
             </section>
             <section id="experiencia">
-                <h2>Experiencia</h2>
+                <h2 id="titulo-experiencia">Experiencia</h2>
                 <ul>
                     <li><b>Empresa X</b> (2022 - presente)</li>
                     <ul>
@@ -46,27 +48,35 @@
                     </ul>                    
             </section>
             <section id="proyectos">
-                <h2>Proyectos</h2>
+                <h2 id="titulo-proyecto">Proyectos</h2>
                 <ul>
-                    <li><a href="https://www.google.com/search?q=snake&oq=snake&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBBzcyN2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">Snake de Google</a></li>
+                    <li><a href="https://www.google.com/search?q=snake&oq=snake&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBBzcyN2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank"><b>Snake de Google</b></a></li>
                 <p>
                     Un juego clásico de los 2000, acerca de controlar una serpiente mientras crece a medida
-                    que se alimenta de la manzana.
+                    que se alimenta de una manzana.
                 </p>
-                <li><a href="https://elpais.com/juegos/sopas-de-letras/diaria/" target="_blank">Sopa de Letras Clásica</a></li>
+                <li><a href="https://elpais.com/juegos/sopas-de-letras/diaria/" target="_blank"><b>Sopa de Letras Clásica</b></a></li>
                 <p>Juega online a la nueva sopa de letras clásica de EL PAÍS.</p>
                 </ul>
             </section>
             <section id="contacto">
-                <h2>Contacto</h2>
+                <h2 id="titulo-contacto">Contacto</h2>
                 <ul>
-                    <li>Email: aleser221@gmail.com</li>
-                    <li>Teléfono: 0992-284-692</li>
                     <li>
-                        Redes Sociales: 
-                        <ul>
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="" class="email">aleser221@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>                         
+                        <a href="https://api.whatsapp.com/send?phone=595992284692" target="_blank" class="wsp">0992284692</a> 
+                    </li>
+                    <li>
+                        <b id="cuentas">Redes Sociales: </b>
+                        <ul id="sociales">
                             <li>
-                                <a href="https://www.facebook.com/profile.php?id=100082499299582&mibextid=ZbWKwL" target="_blank">Facebook</a>
+                                <a href="https://www.facebook.com/profile.php?id=100082499299582&mibextid=ZbWKwL" class="facebook" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
                             </li>
                         </ul>
                     </li>

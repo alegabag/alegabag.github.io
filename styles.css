@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #fff;
+    color: rgb(15, 15, 15);
+    color: black;
+    padding-top: 70px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: blue;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu-item:hover{
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#titulo-acerca-de-mi {
+    border-left: 5px solid #959595;
+}
+
+#acerca-de-mi {
+    text-align: justify;
+}
+
+#titulo-habilidades {
+    border-left: 5px solid purple;
+}
+
+/* Selecciona todos los elementos ul que estén dentro del elemento con ID habilidades */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+/* Selecciona todos los elementos li que estén dentro de un elemento ul, que a su estén dentro del elemento con ID habilidades */
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#titulo-experiencia {
+    border-left: 5px solid lightseagreen;
+}
+
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#titulo-proyecto {
+    border-left: 5px solid #ff992f;
+}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+
+#titulo-contacto {
+    border-left: 5px solid #5add59;
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contacto ul li a {
+    text-decoration: none;
+}
+
+#contacto a.email:hover {
+    color: #db2533;
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+}
+
+#contacto a.wsp:hover {
+    color: green;
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-envelope {
+    color: #db2533;
+    font-size: 30px;
+}
+
+.fa-whatsapp {
+    color: green;
+    font-size: 30px;
+}
+
+#sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+#sociales a {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#sociales i:hover {
+    transform: scale(1.4);
+    transition: all ease-in-out 300ms;
+}
+
+#cuentas {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.facebook {
+    color: blue;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
